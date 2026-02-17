@@ -36,41 +36,41 @@ The dataset contains:
 
 ## 📈 Key Analysis Example
 
-Outlier treatment using IQR method:
-
+- Outlier treatment using IQR method:
+```  
 Q1_miles = np.percentile(df['miles'], 25)
 Q3_miles = np.percentile(df['miles'], 75)
 IQR_miles = Q3_miles - Q1_miles
+```
 
-
-Daily miles trend visualization:
-
+- Daily miles trend visualization:
+```
 daily_miles = df.resample('D')['miles'].sum()
 plt.plot(daily_miles.index, daily_miles.values)
+```
+## 🎯 Skills Demonstrated
 
-🎯 Skills Demonstrated
+- Python
 
-Python
+- Pandas
 
-Pandas
+- NumPy
 
-NumPy
+- Data Cleaning
 
-Data Cleaning
+- Exploratory Data Analysis
 
-Exploratory Data Analysis
+- Data Visualization
 
-Data Visualization
+- Outlier Detection
 
-Outlier Detection
+- Time Series Aggregation
 
-Time Series Aggregation
-
-📌 Conclusion
+## 📌 Conclusion
 
 The analysis helped identify ride usage trends, peak travel periods, and business ride patterns. Proper outlier handling improved dataset reliability for further modeling tasks.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Dilip Kumar Anjana
 B.Tech CSE | Data Analytics Enthusiast
