@@ -3,38 +3,38 @@
 
 This project focuses on performing Exploratory Data Analysis (EDA) and data preprocessing on an Uber ride dataset to identify ride patterns, travel behavior, and business insights.
 
-📊 Dataset Description
+## 📊 Dataset Description
 
 The dataset contains:
 
-Start & End Date
+- Start & End Date
 
-Ride Category (Business/Personal)
+- Ride Category (Business/Personal)
 
-Start & Stop Locations
+- Start & Stop Locations
 
-Miles Travelled
+- Miles Travelled
 
-Purpose of Ride
+- Purpose of Ride
 
-Day Name
+- Day Name
 
-Time Label
+- Time Label
 
-Month
+- Month
 
-Duration
+- Duration
 
-🛠️ Work Performed
+## 🛠️ Work Performed
 
-✔ Data Cleaning
-✔ Feature Engineering (Day, Month, Duration Extraction)
-✔ Outlier Treatment using IQR Method
-✔ Time Series Analysis (Daily Miles Trend)
-✔ Data Encoding
-✔ Visualization using Matplotlib
+- ✔ Data Cleaning
+- ✔ Feature Engineering (Day, Month, Duration Extraction)
+- ✔ Outlier Treatment using IQR Method
+- ✔ Time Series Analysis (Daily Miles Trend)
+- ✔ Data Encoding
+- ✔ Visualization using Matplotlib
 
-📈 Key Analysis Example
+## 📈 Key Analysis Example
 
 Outlier treatment using IQR method:
 
