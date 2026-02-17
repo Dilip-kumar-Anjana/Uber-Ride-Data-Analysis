@@ -1,5 +1,5 @@
-🚗 Uber Ride Data Analysis
-📌 Project Overview
+- 🚗 Uber Ride Data Analysis
+- 📌 Project Overview
 
 This project focuses on performing Exploratory Data Analysis (EDA) and data preprocessing on an Uber ride dataset to identify ride patterns, travel behavior, and business insights.
 
